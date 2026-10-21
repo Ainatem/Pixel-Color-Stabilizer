@@ -1,0 +1,5 @@
+include README.md README.en.md LICENSE THIRD_PARTY.md VALIDATION.md Start.cmd .gitignore
+recursive-include scripts *.py *.ps1
+recursive-include tests *.py
+recursive-include .github *.yml
+global-exclude *.pyc
